@@ -22,7 +22,7 @@ track WT_FW
 parent WT
 type bigWig 0 1000
 visibility full
-bigDataUrl https://meierjl:Cmv2019!!@raw.githubusercontent.com/meierjl/TowneN1N2D0NT2/master/FJ616285.1/N1N2-PRO-Seq/WT-No-Flavo-dedup-FW-FJ616285.1.bw
+bigDataUrl https://meierjl:Cmv2019!!@raw.githubusercontent.com/meierjl/TowneN1N2D-NT2/master/FJ616285.1/N1N2-PRO-Seq/WT-No-Flavo-dedup-FW-FJ616285.1.bw
 longLabel WT 
 shortLabel WT 
 negateValues off
