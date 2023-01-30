@@ -86,6 +86,44 @@ maxHeightPixels 128:128:16
 
 #############
 	 
+track NB
+compositeTrack on
+type bigWig 0 1000
+priority 9.5
+visibility full
+shortLabel NB
+longLabel NB
+	 
+track NB_FW
+parent NB
+type bigWig 0 1000
+visibility full
+bigDataUrl https://meierjl:Cmv2019!!@raw.githubusercontent.com/meierjl/TowneN1N2D-NT2/master/FJ616285.1/N1N2-PRO-Seq/N2-No-Flavo-dedup-FW-FJ616285.1.bw
+longLabel NB
+shortLabel NB
+negateValues off
+color 113,35,124
+altColor 113,35,124
+alwaysZero on
+autoScale on
+maxHeightPixels 128:128:16
+	 
+track NB_RV
+parent NB
+type bigWig 0 1000
+visibility full
+bigDataUrl https://meierjl:Cmv2019!!@raw.githubusercontent.com/meierjl/TowneN1N2D-NT2/master/FJ616285.1/N1N2-PRO-Seq/N2-No-Flavo-dedup-RV-FJ616285.1.bw
+longLabel NB
+shortLabel NB
+negateValues on
+color 113,35,124
+altColor 113,35,124
+alwaysZero on
+autoScale on
+maxHeightPixels 128:128:16
+
+#############
+	 
 track N2
 compositeTrack on
 type bigWig 0 1000
@@ -98,7 +136,7 @@ track N2_FW
 parent N2
 type bigWig 0 1000
 visibility full
-bigDataUrl https://meierjl:Cmv2019!!@raw.githubusercontent.com/meierjl/TowneN1N2D-NT2/master/FJ616285.1/N1N2-PRO-Seq/N2-No-Flavo-dedup-FW-FJ616285.1.bw
+bigDataUrl https://meierjl:Cmv2019!!@raw.githubusercontent.com/meierjl/TowneN1N2D-NT2/master/FJ616285.1/N1N2-PRO-Seq/NS2-No-Flavo-dedup-FW-FJ616285.1.bw
 longLabel N2
 shortLabel N2
 negateValues off
@@ -109,50 +147,12 @@ autoScale on
 maxHeightPixels 128:128:16
 	 
 track N2_RV
-parent N2
-type bigWig 0 1000
-visibility full
-bigDataUrl https://meierjl:Cmv2019!!@raw.githubusercontent.com/meierjl/TowneN1N2D-NT2/master/FJ616285.1/N1N2-PRO-Seq/N2-No-Flavo-dedup-RV-FJ616285.1.bw
-longLabel N2
-shortLabel N2
-negateValues on
-color 113,35,124
-altColor 113,35,124
-alwaysZero on
-autoScale on
-maxHeightPixels 128:128:16
-
-#############
-	 
-track NS2
-compositeTrack on
-type bigWig 0 1000
-priority 9.5
-visibility full
-shortLabel NS2
-longLabel NS2
-	 
-track NS2_FW
-parent NS2
-type bigWig 0 1000
-visibility full
-bigDataUrl https://meierjl:Cmv2019!!@raw.githubusercontent.com/meierjl/TowneN1N2D-NT2/master/FJ616285.1/N1N2-PRO-Seq/NS2-No-Flavo-dedup-FW-FJ616285.1.bw
-longLabel NS2
-shortLabel NS2
-negateValues off
-color 113,35,124
-altColor 113,35,124
-alwaysZero on
-autoScale on
-maxHeightPixels 128:128:16
-	 
-track NS2_RV
 parent NS2
 type bigWig 0 1000
 visibility full
 bigDataUrl https://meierjl:Cmv2019!!@raw.githubusercontent.com/meierjl/TowneN1N2D-NT2/master/FJ616285.1/N1N2-PRO-Seq/NS2-No-Flavo-dedup-RV-FJ616285.1.bw
-longLabel NS2
-shortLabel NS2
+longLabel N2
+shortLabel N2
 negateValues on
 color 113,35,124
 altColor 113,35,124
@@ -238,6 +238,44 @@ maxHeightPixels 128:128:16
 
 #############
 	 
+track NB-Flavo
+compositeTrack on
+type bigWig 0 1000
+priority 9.5
+visibility full
+shortLabel NB Flavo
+longLabel NB Flavo
+	 
+track NB-Flavo_FW
+parent NB-Flavo
+type bigWig 0 1000
+visibility full
+bigDataUrl https://meierjl:Cmv2019!!@raw.githubusercontent.com/meierjl/TowneN1N2D-NT2/master/FJ616285.1/N1N2-PRO-Seq/N2-Flavo-dedup-FW-FJ616285.1.bw
+longLabel NB Flavo
+shortLabel NB Flavo
+negateValues off
+color 153,58,29
+altColor 153,58,29
+alwaysZero on
+autoScale on
+maxHeightPixels 128:128:16
+	 
+track NB-Falvo_RV
+parent NB-Flavo
+type bigWig 0 1000
+visibility full
+bigDataUrl https://meierjl:Cmv2019!!@raw.githubusercontent.com/meierjl/TowneN1N2D-NT2/master/FJ616285.1/N1N2-PRO-Seq/N2-Flavo-dedup-RV-FJ616285.1.bw
+longLabel NB Flavo
+shortLabel NB Flavo
+negateValues on
+color 153,58,29
+altColor 153,58,29
+alwaysZero on
+autoScale on
+maxHeightPixels 128:128:16
+
+#############
+	 
 track N2-Flavo
 compositeTrack on
 type bigWig 0 1000
@@ -246,11 +284,11 @@ visibility full
 shortLabel N2 Flavo
 longLabel N2 Flavo
 	 
-track N2-Flavo_FW
-parent N2-Flavo
+track NS2-Flavo_FW
+parent NS2-Flavo
 type bigWig 0 1000
 visibility full
-bigDataUrl https://meierjl:Cmv2019!!@raw.githubusercontent.com/meierjl/TowneN1N2D-NT2/master/FJ616285.1/N1N2-PRO-Seq/N2-Flavo-dedup-FW-FJ616285.1.bw
+bigDataUrl https://meierjl:Cmv2019!!@raw.githubusercontent.com/meierjl/TowneN1N2D-NT2/master/FJ616285.1/N1N2-PRO-Seq/NS2-Flavo-dedup-FW-FJ616285.1.bw
 longLabel N2 Flavo
 shortLabel N2 Flavo
 negateValues off
@@ -264,47 +302,9 @@ track N2-Falvo_RV
 parent N2-Flavo
 type bigWig 0 1000
 visibility full
-bigDataUrl https://meierjl:Cmv2019!!@raw.githubusercontent.com/meierjl/TowneN1N2D-NT2/master/FJ616285.1/N1N2-PRO-Seq/N2-Flavo-dedup-RV-FJ616285.1.bw
+bigDataUrl https://meierjl:Cmv2019!!@raw.githubusercontent.com/meierjl/TowneN1N2D-NT2/master/FJ616285.1/N1N2-PRO-Seq/NS2-Flavo-dedup-RV-FJ616285.1.bw
 longLabel N2 Flavo
 shortLabel N2 Flavo
-negateValues on
-color 153,58,29
-altColor 153,58,29
-alwaysZero on
-autoScale on
-maxHeightPixels 128:128:16
-
-#############
-	 
-track NS2-Flavo
-compositeTrack on
-type bigWig 0 1000
-priority 9.5
-visibility full
-shortLabel NS2 Flavo
-longLabel NS2 Flavo
-	 
-track NS2-Flavo_FW
-parent NS2-Flavo
-type bigWig 0 1000
-visibility full
-bigDataUrl https://meierjl:Cmv2019!!@raw.githubusercontent.com/meierjl/TowneN1N2D-NT2/master/FJ616285.1/N1N2-PRO-Seq/NS2-Flavo-dedup-FW-FJ616285.1.bw
-longLabel NS2 Flavo
-shortLabel NS2 Flavo
-negateValues off
-color 153,58,29
-altColor 153,58,29
-alwaysZero on
-autoScale on
-maxHeightPixels 128:128:16
-	 
-track NS2-Falvo_RV
-parent NS2-Flavo
-type bigWig 0 1000
-visibility full
-bigDataUrl https://meierjl:Cmv2019!!@raw.githubusercontent.com/meierjl/TowneN1N2D-NT2/master/FJ616285.1/N1N2-PRO-Seq/NS2-Flavo-dedup-RV-FJ616285.1.bw
-longLabel NS2 Flavo
-shortLabel NS2 Flavo
 negateValues on
 color 153,58,29
 altColor 153,58,29
