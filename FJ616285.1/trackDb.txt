@@ -147,7 +147,7 @@ autoScale on
 maxHeightPixels 128:128:16
 	 
 track N2_RV
-parent NS2
+parent N2
 type bigWig 0 1000
 visibility full
 bigDataUrl https://meierjl:Cmv2019!!@raw.githubusercontent.com/meierjl/TowneN1N2D-NT2/master/FJ616285.1/N1N2-PRO-Seq/NS2-No-Flavo-dedup-RV-FJ616285.1.bw
@@ -284,8 +284,8 @@ visibility full
 shortLabel N2 Flavo
 longLabel N2 Flavo
 	 
-track NS2-Flavo_FW
-parent NS2-Flavo
+track N2-Flavo_FW
+parent N2-Flavo
 type bigWig 0 1000
 visibility full
 bigDataUrl https://meierjl:Cmv2019!!@raw.githubusercontent.com/meierjl/TowneN1N2D-NT2/master/FJ616285.1/N1N2-PRO-Seq/NS2-Flavo-dedup-FW-FJ616285.1.bw
